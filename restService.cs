@@ -6,7 +6,21 @@ using System.Web.Script.Serialization;
 using System.Windows.Forms;
 
 /* adicione a referencia System.Web.Extensions */
- 
+
+/*
+
+            exemplo de chamada
+            
+            Util.RestService mo = new Util.RestService();
+            string json = mo.GetSerializer().Serialize(userMo);
+            string a = mo.DoService("tresaId/person/login", json, "POST");
+            
+            caso seja retornado uma lista 
+            UserMo mUser = Newtonsoft.Json.JsonConvert.DeserializeObject<UserMo>(a);
+            JObject o = JObject.Parse(a);
+           
+*/
+
 namespace ABL_Uploader.Util
 {
     class RestService
