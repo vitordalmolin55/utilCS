@@ -5,6 +5,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
 
+/* adicione a referencia System.Web.Extensions */
+ 
 namespace ABL_Uploader.Util
 {
     class RestService
